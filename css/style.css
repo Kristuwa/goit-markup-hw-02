@@ -1,0 +1,158 @@
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--title-text-color: #FFFFFF;
+--accent-color: #2196F3 ;
+--footer-color: #2F303A;
+}
+
+body {
+	color: var(--primary-text-color);
+	background-color:var(--title-text-color);
+
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+	line-height: 1.14;
+}
+
+.list-style {
+	list-style: none;
+}
+
+.nav .link {
+	color: var(--primary-text-color);
+	font-weight: 500;
+	letter-spacing: 0.02em;
+}
+
+.nav .link:hover,
+.nav .link:focus
+ {
+	color: var(--accent-color);
+}
+
+.logo {
+	color: var(--primary-text-color);
+	font-family: Ralewai, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+
+.logo-title {
+	color: var(--accent-color);
+}
+
+.info-link{
+	color: var(--secondary-text-color);
+	font-weight: 500;
+	letter-spacing: 0.02em;
+}
+
+.info-link:hover,
+.info-link:focus {
+	color: var(--accent-color);
+}
+
+.title {
+	color: var(--title-text-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase
+}
+
+ .button {
+	background-color: var(--accent-color);
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	cursor: pointer;
+ }
+
+ .title-description {
+	font-weight: 700;
+	text-transform: uppercase;
+ }
+
+ .description {
+ 	color: var(--secondary-text-color);
+ 	font-weight: 400;
+	line-height: 1.71;
+ }
+
+ .section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+ }
+
+ .title-foto {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+ }
+
+ .foto-description{
+	color: var(--secondary-text-color);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+ }
+
+.footer{
+	background-color: var(--footer-color);
+}
+
+ .footer-address{
+	color: var(--title-text-color);
+
+	font-weight: 400;
+	line-height: 1.71;
+ }
+
+ .footer .info-link {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	
+ }
+
+.footer .logo {
+	color: var(--title-text-color);
+ }
+
+ .button-portfolio {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+ }
+
+ .button-portfolio:hover,
+ .button-portfolio:focus {
+	background-color: var(--accent-color);
+	color: var(--title-text-color);
+	cursor: pointer;
+ }
+
+ .project-title {
+	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+ }
+
+ .project-description {
+	color: var(--secondary-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+ }
