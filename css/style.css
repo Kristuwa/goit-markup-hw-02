@@ -41,7 +41,6 @@ body {
 
 .hero {
 	background-color: var(--footer-color);
-	font-family: inherit;
 }
 
 .nav .link {
@@ -97,6 +96,7 @@ body {
 	background-color: var(--accent-color);
 	color: var(--title-text-color);
 
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -160,6 +160,7 @@ body {
  }
 
  .button-portfolio {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
