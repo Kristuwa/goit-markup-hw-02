@@ -4,6 +4,7 @@
 --title-text-color: #FFFFFF;
 --accent-color: #2196F3 ;
 --footer-color: #2F303A;
+--section-background: #F5F4FA;
 }
 
 body {
@@ -123,6 +124,10 @@ body {
 	line-height: 1.17;
  }
 
+ .section-team {
+	 background-color: var(--section-background);
+ }
+
  .title-foto {
 	font-weight: 500;
 	font-size: 16px;
@@ -164,6 +169,7 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
+	letter-spacing: 0.03em;
  }
 
  .button-portfolio:hover,
